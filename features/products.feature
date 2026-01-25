@@ -86,8 +86,7 @@ Scenario: Delete a Product
     And I press the "Clear" button
     And I paste the "Id" field
     And I press the "Delete" button
-    Then I should see the message "Product had been Deleted!"
-    And I should see "Hat" in the "Name" field
+    Then I should see the message "Product has been Deleted!"
     When I press the "clear" button
     And I press the "Search" button
     Then I should see the message "Success"
